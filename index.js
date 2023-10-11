@@ -36,6 +36,6 @@ function showData(){
 showData();
 
 window.oncontextmenu=function () {
-    alert('Inspect lam panna mudiyathu da body soda');
+    alert('ithu thaa thavarana seiyal');
     return false;
 }
