@@ -34,3 +34,8 @@ function showData(){
     listContainer.innerHTML = localStorage.getItem("data");
 }
 showData();
+
+window.oncontextmenu=function () {
+    alert('Inspect lam panna mudiyathu da body soda');
+    return false;
+}
