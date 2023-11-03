@@ -3,7 +3,7 @@ const listContainer = document.getElementById("list-container");
 
 function addTask(){
     if(inputBox.value === ''){
-        alert("you must right something");
+        alert("you must write something");
     }else{
         let li = document.createElement("li");
         li.innerHTML = inputBox.value;
@@ -36,6 +36,6 @@ function showData(){
 showData();
 
 window.oncontextmenu=function () {
-    alert('ithu thaa thavarana seiyal');
+    alert('right click is disabled ');
     return false;
 }
